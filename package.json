@@ -1,0 +1,20 @@
+{
+  "name": "cypress-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cypress:open": "cypress open",
+    "test:chrome": "cypress run --browser chrome --no-exit",
+    "test:um": "cypress-tags run -e TAGS=@testeLoginValido"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  }
+}
