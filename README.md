@@ -1,7 +1,10 @@
 # desafio-e2e
 <h2>Tecnologias utilizadas</h2>
+
 - cypress com cucumber para a escrita dos testes em BDD
+
 - utilizei como referência para um projeto que já estava estudando: https://medium.com/cwi-software/testes-automatizados-com-cypress-e-cucumber-d78b211da766
+
 - Não consegui automatizar todos os cenários a tempo, mas identifique-os antes de iniciar o projeto:
 
 - Cenários desafio E2E:
