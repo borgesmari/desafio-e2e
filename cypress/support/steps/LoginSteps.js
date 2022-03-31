@@ -19,7 +19,6 @@ Given("acesso o sistema Seu Barriga", () => {
     loginPage.acessarSistema();
 })
 
-
 When("clico no botão entrar", () => {
     loginPage.clicarBotaoEntrar();
 })

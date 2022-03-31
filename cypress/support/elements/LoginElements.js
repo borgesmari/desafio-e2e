@@ -9,6 +9,7 @@ class LoginElements {
     mensagemSucesso = () => { return '.alert-success' }
 
     mensagemErro = () => { return '.alert-danger' }
+
 }
 
 export default LoginElements;

@@ -29,10 +29,19 @@ class LoginPage {
     {
         cy.get(loginElements.mensagemSucesso()).should('contain', 'Bem vindo')
     }
+    
 
     visualizarMensagemErroLogin()
     {
         cy.get(loginElements.mensagemErro()).should('contain', 'Problemas com o login do usuário')
+    }
+
+    realizarLoginSistema()
+    {
+        cy.visit(url)
+        cy.get(loginElements.inputEmail()).type('marianagb.borges@gmail.com')
+        cy.get(loginElements.inputSenha()).type('Hpteste@21')
+        cy.get(loginElements.botaoEntrar()).click()
     }
 
 }
