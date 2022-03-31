@@ -7,8 +7,10 @@
 
 - Não consegui automatizar todos os cenários a tempo, mas identifique-os antes de iniciar o projeto:
 
-- Cenários desafio E2E:
+<h2>Cenários desafio E2E:</h2>
+
 Login
+
 1.	Validar login com e-mail e senha válidos
 2.	Validar login com e-mail inválido (mensagem genérica)
 3.	Validar login com senha inválida (mensagem genérica)
