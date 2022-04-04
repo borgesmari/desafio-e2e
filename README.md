@@ -5,6 +5,8 @@
 
 - utilizei como referência para um projeto que já estava estudando: https://medium.com/cwi-software/testes-automatizados-com-cypress-e-cucumber-d78b211da766
 
+- A parte de automação de API está sendo iniciada
+
 - Não consegui automatizar todos os cenários a tempo, mas identifique-os antes de iniciar o projeto:
 
 <h2>Cenários desafio E2E:</h2>
